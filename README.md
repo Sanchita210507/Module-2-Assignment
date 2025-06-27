@@ -1,2 +1,1 @@
-# Module-2-Assignment
 This is a straightforward, responsive website featuring a heading followed by three content sections, each containing placeholder text. The site dynamically adjusts its layout based on the device width, ensuring an optimal viewing experience across desktop, tablet, and mobile screens
