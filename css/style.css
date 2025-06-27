@@ -1,0 +1,90 @@
+/* Styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .menu-item {
+    position: relative;
+    border: 3px solid black;
+    background-color: #cecbcb;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ccc;
+    border: 3px solid black;
+    border-top: 0;
+    border-right: 0;
+    padding: 5px 10px;
+    font-size: 1.25em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .chicken{
+    background-color: #e78484;
+
+  }
+  .beef{
+    background-color: #bb3d3d;
+    color: #f2f2f2;
+
+  }
+  .sushi{
+    background-color: #cdd859;
+
+  }
+  
+  /* Desktop View (992px and above) */
+  @media (min-width: 992px) {
+    .menu-item {
+      float: left;
+      width: 31.33%;
+      margin: 1%;
+    }
+  }
+  
+  /* Tablet View (768px to 991px) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .menu-item {
+      float: left;
+      width: 48%;
+      margin: 1%;
+    }
+    .menu-item:nth-child(3) {
+      width: 98%;
+    }
+  }
+  
+  /* Mobile View (767px and below) */
+  @media (max-width: 767px) {
+    .menu-item {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
